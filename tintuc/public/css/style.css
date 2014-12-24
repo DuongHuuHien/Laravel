@@ -1,0 +1,113 @@
+*{margin:0px; padding: 0px; }
+.clearfix{
+	clear: both;
+}
+body{
+	background-color: #cfcfcf;
+
+}
+#wrapper{
+	width: 1000px;
+	/*height: 1300px;*/
+	margin: 0px auto;
+
+}
+#banner{
+
+	height: 200px;
+	/*background-color: red;*/
+	margin: 0px auto;
+}
+#banner img{
+	height: 200px;
+	width: 1000px;
+}
+#menu{
+	height: 30px;
+	background-color: #cfcfcf;
+	margin: 0px auto;
+}
+#content{
+width: 1000px;
+height: 750px;
+margin: 0px auto;
+
+}
+#content #left{
+	/*margin-left: 175px;*/
+	width: 700px;
+	height: 750px;
+	background-color: #dfdfdf;
+	float: left;
+	margin: 0px auto;
+
+}
+#content #right{
+	width: 300px;
+	height: 750px;
+	background-color: #dfdfdf;
+	float: right;
+	margin: 0px auto;
+}
+#footer{
+	height: 100px;
+	background-color: black;
+	margin: 0px auto;
+	width: 1000px;
+	clear: both;
+
+
+}
+/*.....................................*/
+.module{
+	height: 240px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+
+}
+.module h1{
+	height: 50px;
+	background: #098;
+	line-height: 50px;
+	text-align: center;;
+	color: white;
+	font-size: 20px;
+
+}
+.module div{
+	text-align: center;
+}
+.module div img{
+	margin-top: 8px;
+}
+.module div table{
+	text-align: center;
+	width: 270px;
+}
+.module div table tr{
+	height: 45px;
+}
+.module .module_system {
+	padding-top: 25px;
+}
+/*.............................................*/
+.news_index{}
+.news_index .news_item_index{
+	margin-bottom: 10px;
+}
+.news_index h1{
+	margin-top: 1px;
+	height: 50px;
+	background: #098;
+	color: white;
+	font-size: 20px;
+	text-align: center;
+	line-height: 50px;
+
+}
+.news_index img{
+	width: auto;
+	}
+.news_index p{
+	font-size: 20px;
+}
